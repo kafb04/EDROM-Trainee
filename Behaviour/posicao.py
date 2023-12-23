@@ -1,28 +1,32 @@
-# TAREFA 1 - BEHAVIOUR
+def posicaoPonto(x, y, largura, altura):
+    centro_x = largura / 2
+    centro_y = altura / 2
 
-def posicaoPonto(x, y):
-    if (10 >= x >= 0 and 10 >= y >= 0) :
-        pos = "Superior Direita"
-
-    elif (10 >= x >= 0 and 0 >= y >= -10) :
-        pos = "Inferior Direita"
-
-    elif (0 >= x >= -10 and 10 >= y >= 0) :
-        pos = "Superior Esquerda"
-
-    elif (0 >= x >= -10 and 0 >= y >= -10) :
-        pos = "Inferior Direita"
-
-    elif (x == 0 and y == 0) :
+    if (x == centro_x and y == centro_y):
         pos = "Centro"
+    elif (1 <= x <= largura and 1 <= y <= altura):
+        pos = ""
+        if y < centro_y:
+            pos += "Superior "
+        elif y > centro_y:
+            pos += "Inferior "
+        if x < centro_x:
+            pos += "Esquerda"
+        elif x > centro_x:
+            pos += "Direita"
+        pos = pos.strip()
 
+        if not ("Superior" in pos or "Inferior" in pos):
+            pos = "Centro " + pos.strip()
     else:
-        pos = "ERRO: As coordenadas se encontram fora do plano cartesiano, cujo limite é 10x10!"
-    
+        pos = "ERRO: Esta fora dos limites do retangulo!"
+
     print("A posicao em que o ponto se encontra eh:", pos)
 
+print("Digite o tamanho do retangulo (LarguraxAltura):")
+largura, altura = map(int, input().split())
 
-print("Digite as coordenadas (X, Y)")
-x = int(input())
-y = int(input())
-posicaoPonto(x, y)
+print("Digite as coordenadas do ponto (X,Y):")
+x, y = map(int, input().split())
+
+posicaoPonto(x, y, largura, altura)
