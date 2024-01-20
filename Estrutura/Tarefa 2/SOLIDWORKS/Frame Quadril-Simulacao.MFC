@@ -1,0 +1,16 @@
+[StartTime]
+Frame Quadril-Simulacao.MFC=1s
+[SolverState]
+Frame Quadril-Simulacao.MFC=2
+[MainFrame]
+Frame Quadril-Simulacao.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMMBAAAAAPPAAAAAAEDDAAAAACNBAAAAA
+[ShowMin]
+Frame Quadril-Simulacao.MFC=No
+[SolverType]
+Frame Quadril-Simulacao.MFC=Análise Linear
+[StudyType]
+Frame Quadril-Simulacao.MFC=0
+[StudyName]
+Frame Quadril-Simulacao.MFC=Simulacao
+[Solver]
+Frame Quadril-Simulacao.MFC=Iterative
