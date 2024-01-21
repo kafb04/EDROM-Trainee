@@ -1,9 +1,9 @@
 [StartTime]
-Frame Coxa-Simulacao2.MFC=5s
+Frame Coxa-Simulacao2.MFC=3s
 [SolverState]
 Frame Coxa-Simulacao2.MFC=2
 [MainFrame]
-Frame Coxa-Simulacao2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMMBAAAAAPPAAAAAAEDDAAAAACNBAAAAA
+Frame Coxa-Simulacao2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPILBAAAAAFPAAAAAAACDAAAAAIMBAAAAA
 [ShowMin]
 Frame Coxa-Simulacao2.MFC=No
 [SolverType]
@@ -13,4 +13,4 @@ Frame Coxa-Simulacao2.MFC=0
 [StudyName]
 Frame Coxa-Simulacao2.MFC=Simulacao2
 [Solver]
-Frame Coxa-Simulacao2.MFC=Sparse
+Frame Coxa-Simulacao2.MFC=Iterative
